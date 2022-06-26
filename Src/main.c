@@ -62,7 +62,7 @@ unsigned char CardID[5];
 unsigned char MyID[5] = {0x6A, 0x08, 0xE7, 0xAB, 0x2E};	//My card on my keys
 
 
-// cam bien :RC522
+// cam bien :RC522 RC522 hhahahahahaqh
 uint8_t MFRC522_Check(uint8_t* id);
 uint8_t MFRC522_Compare(uint8_t* CardID, uint8_t* CompareID);
 void MFRC522_WriteRegister(uint8_t addr, uint8_t val);
